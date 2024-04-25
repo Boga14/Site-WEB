@@ -31,7 +31,7 @@
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
-            text-align: left; /* Aliniere la stânga */
+            text-align: left; 
         }
         .show {
             margin-top: 2rem;
