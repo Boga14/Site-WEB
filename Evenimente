@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>SuperTiket</title>
+    
+</head>
+        <body>
+            <div class="show">
+                <h2>Spectacolul: Colecționarul</h2>
+                <p>Data: 25 aprilie 2024</p>
+                <p>Preț bilet: 80 lei</p>
+            </div>
+            
+            <div class="show">
+                <h2>Spectacolul: Maestrul si Margaritan</h2>
+                <p>Data: 1 mai 2024</p>
+                <p>Preț bilet: 100 lei</p>
+            </div>
+        </body>
+    
