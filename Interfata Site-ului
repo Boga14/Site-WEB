@@ -68,7 +68,7 @@
 
         document.getElementById("contact").addEventListener("click", function(event) {
             event.preventDefault(); // previne comportamentul implicit al linkului
-            window.location.href = "https://www.siteul-dorit.ro/contact"; // redirecționează către pagina de contact
+            window.location.href = "http://127.0.0.1:5500/HTML/contact.html"; // redirecționează către pagina de contact
         });
     </script>
 </body>
