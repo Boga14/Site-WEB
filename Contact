@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <title>Super Tiket Contacte</title>
+
+</head>
+<body>
+    <div class="Contact">
+        <h1>Pentru sau mai multe informatii ne puteti contacta la:</h1>
+    </div>
+        <br>
+            <p>Adresa de Email: supertiket@gmail.com </p>
+            <p>Numarul de telefon: 06522411</p>
+            <p> Facebook: SuperTiket</p>
+    </body>
