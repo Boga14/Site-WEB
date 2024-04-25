@@ -49,8 +49,7 @@
         <h2>Bine ați venit!</h2>
         <p>Obțineți cele mai bune bilete pentru spectacolele de teatru alese cu atenție.</p>
         <p>Explorați evenimentele noastre și rezervați-vă locurile acum!</p>
-        <br>
-        <br>
+        <hr>
     <div class="Informatii">
         <p>SuperTicket este un site de vânzare de bilete de teatru care oferă o gamă largă de spectacole și evenimente culturale. Aici puteți găsi bilete pentru piese de teatru, concerte, operă, balet și multe altele. SuperTicket colaborează cu cele mai importante teatre și săli de spectacol din oraș pentru a vă oferi cele mai bune experiențe culturale.
 <br>
