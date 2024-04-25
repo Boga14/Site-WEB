@@ -56,14 +56,14 @@
         <p>Explorați evenimentele noastre și rezervați-vă locurile acum!</p>
         
         <div class="show">
-            <h3>Spectacolul de Crăciun</h3>
-            <p>Data: 24 decembrie 2024</p>
-            <p>Preț bilet: 50 lei</p>
+            <h3>Spectacolul: Colecționarul</h3>
+            <p>Data: 25 aprilie 2024</p>
+            <p>Preț bilet: 80 lei</p>
         </div>
         
         <div class="show">
-            <h3>Spectacolul de Revelion</h3>
-            <p>Data: 31 decembrie 2024</p>
+            <h3>Spectacolul: Maestrul si Margaritan</h3>
+            <p>Data: 1 mai 2024</p>
             <p>Preț bilet: 100 lei</p>
         </div>
     </div>
