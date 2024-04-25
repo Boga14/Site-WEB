@@ -1,20 +1,48 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>SuperTiket Evenimente</title>
-    <style>
-    </style>
+<title>SuperTicket</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100vh;
+    }
+
+    .show {
+        flex: 1;
+        background-color: #f7f7f7;
+        padding: 20px;
+    }
+
+    .show1 {
+        flex: 1;
+        background-color: #e0e0e0;
+        padding: 20px;
+    }
+</style>
 </head>
-        <body>
-            <div class="show">
-                <h2>Spectacolul: Colecționarul</h2>
-                <p>Data: 25 aprilie 2024</p>
-                <p>Preț bilet: 80 lei</p>
-            </div>
-            
-            <div class="show1">
-                <h2>Spectacolul: Maestrul si Margaritan</h2>
-                <p>Data: 1 mai 2024</p>
-                <p>Preț bilet: 100 lei</p>
-            </div>
-        </body>
-    
+<body>
+    <div class="container">
+        <div class="show">
+            <h1>Spectacolul: Colecționarul</h1>
+            <p>Data: 25 aprilie 2024</p>
+            <p>Preț bilet: 80 lei</p>
+        </div>
+        <div class="show1">
+            <h1>Spectacolul: Maestrul si Margaritan</h1>
+            <p>Data: 1 mai 20242</p>
+            <p>Preț bilet: 100 lei</p>
+        </div>
+    </div>
+</body>
+</html>
