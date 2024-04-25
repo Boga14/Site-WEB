@@ -1,14 +1,32 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>Super Tiket Contacte</title>
-
+    <title>SuperTicket Contacte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .Contact {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        p {
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="Contact">
         <h1>Pentru sau mai multe informatii ne puteti contacta la:</h1>
     </div>
-        <br>
-            <p>Adresa de Email: supertiket@gmail.com </p>
-            <p>Numarul de telefon: 06522411</p>
-            <p> Facebook: SuperTiket</p>
-    </body>
+    <br>
+    <p><h2>Adresa de Email: superTicket@gmail.com </h2></p>
+    <p><h2>Numarul de telefon: 06522411</h2></p>
+    <p><h2>Facebook: SuperTicket</h2></p>
+</body>
+</html>
