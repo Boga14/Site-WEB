@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>SuperTiket</title>
     <style>
@@ -31,9 +32,9 @@
             padding: 0 1rem;
             text-align: center; 
         }
-.Informatii {
-    text-align: left;
-}
+        .Informatii {
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -42,23 +43,33 @@
     </header>
     <nav>
         <a href="#">Acasă</a>
-        <a href="#">Evenimente</a>
-        <a href="#">Contact</a>
+        <a href="#" id="evenimente">Evenimente</a>
+        <a href="#" id="contact">Contact</a>
     </nav>
     <div class="container">
         <h2>Bine ați venit!</h2>
         <p>Obțineți cele mai bune bilete pentru spectacolele de teatru alese cu atenție.</p>
         <p>Explorați evenimentele noastre și rezervați-vă locurile acum!</p>
         <hr>
-    <div class="Informatii">
-        <p>SuperTicket este un site de vânzare de bilete de teatru care oferă o gamă largă de spectacole și evenimente culturale. Aici puteți găsi bilete pentru piese de teatru, concerte, operă, balet și multe altele. SuperTicket colaborează cu cele mai importante teatre și săli de spectacol din oraș pentru a vă oferi cele mai bune experiențe culturale.
-<br>
-<br>
+        <div class="Informatii">
+            <p>SuperTicket este un site de vânzare de bilete de teatru care oferă o gamă largă de spectacole și evenimente culturale. Aici puteți găsi bilete pentru piese de teatru, concerte, operă, balet și multe altele. SuperTicket colaborează cu cele mai importante teatre și săli de spectacol din oraș pentru a vă oferi cele mai bune experiențe culturale.
+            <br><br>
             Pe SuperTicket, puteți căuta evenimentele dorite în funcție de genul lor, de locație sau de data și ora spectacolului. Site-ul oferă, de asemenea, informații detaliate despre fiecare spectacol, inclusiv distribuția, recenzii și ratinguri, astfel încât să puteți lua decizii informate în legătură cu achiziționarea de bilete.
-            <br>
-            <br>
+            <br><br>
             SuperTicket se angajează să ofere servicii de înaltă calitate clienților săi, inclusiv o platformă sigură de plată online și asistență clienți dedicată. Cu SuperTicket, veți avea acces la cele mai recente și mai populare spectacole de teatru și evenimente culturale, fără a fi nevoie să vă faceți griji în privința biletelor epuizate sau a prețurilor exagerate.</p>
+        </div>
     </div>
-    </div>
+
+    <script>
+        document.getElementById("evenimente").addEventListener("click", function(event) {
+            event.preventDefault(); 
+            window.location.href = "http://127.0.0.1:5500/HTML/evenimente.html"; 
+        });
+
+        document.getElementById("contact").addEventListener("click", function(event) {
+            event.preventDefault(); // previne comportamentul implicit al linkului
+            window.location.href = "https://www.siteul-dorit.ro/contact"; // redirecționează către pagina de contact
+        });
+    </script>
 </body>
 </html>
