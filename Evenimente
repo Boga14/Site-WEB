@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <head>
     <title>SuperTiket</title>
-    
+    <style>
+    </style>
 </head>
         <body>
             <div class="show">
@@ -10,7 +11,7 @@
                 <p>Preț bilet: 80 lei</p>
             </div>
             
-            <div class="show">
+            <div class="show1">
                 <h2>Spectacolul: Maestrul si Margaritan</h2>
                 <p>Data: 1 mai 2024</p>
                 <p>Preț bilet: 100 lei</p>
